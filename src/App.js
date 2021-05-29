@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./pages/HomePage/HomePage";
+import "./AppStyling/css/vendor/animation.min.css";
+import "./AppStyling/css/vendor/bootstrap.min.css";
+import "./AppStyling/css/vendor/cookie-notice.min.css";
+import "./AppStyling/css/vendor/gallery.min.css";
+import "./AppStyling/css/vendor/icons.min.css";
+import "./AppStyling/css/vendor/slider.min.css";
+import "./AppStyling/css/default.css";
+import "./AppStyling/css/main.css";
+import "./AppStyling/css/theme-pink.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 }
 
