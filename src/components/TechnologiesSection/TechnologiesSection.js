@@ -12,6 +12,8 @@ import react from "../../images/technologies/react.svg";
 import redux from "../..//images/technologies/redux.svg";
 import aws from "../../images/technologies/aws.svg";
 import angular from "../../images/technologies/angular.svg";
+import gatsby from "../../images/technologies/gatsby.png";
+import nextjs from "../../images/technologies/nextjs.png";
 function TechnologiesSection() {
   return (
     <section id="partner" className="section-5 odd logos featured">
@@ -36,6 +38,22 @@ function TechnologiesSection() {
                   src={react}
                   className="fit-image "
                   alt="react"
+                />
+              </div>
+              <div className="swiper-slide slide-center item">
+                <img
+                  style={{ width: "140px" }}
+                  src={gatsby}
+                  className="fit-image "
+                  alt="gatsby"
+                />
+              </div>
+              <div className="swiper-slide slide-center item">
+                <img
+                  style={{ width: "140px", filter: "invert(100%)" }}
+                  src={nextjs}
+                  className="fit-image "
+                  alt="nextjs"
                 />
               </div>
               <div className="swiper-slide slide-center item">
