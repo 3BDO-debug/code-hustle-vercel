@@ -26,7 +26,7 @@ function PortfolioSection() {
         </div>
         <div className="row justify-content-center text-center items">
           <div
-            onClick={() => window.open("ahmedsultan5050.pythonanywhere.com")}
+            onClick={() => window.open("https://ahmedsultan5050.pythonanywhere.com")}
             style={{ cursor: "pointer" }}
             className="col-12 col-md-6 col-lg-4 item"
           >
