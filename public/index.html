@@ -90,5 +90,22 @@
     
     <script src="https://leverage-html.codings.dev/assets/js/vendor/particles.min.js"></script>
     <script src="https://leverage-html.codings.dev/assets/js/main.js"></script>
+    <script>
+        $(document).on("click", "#menu .nav-item .nav-link", function (e) {
+    if ($(this).hasClass("prevent")) {
+      e.preventDefault();
+    }
+
+    var nav_link = $(this);
+
+    nav_link.next().toggleClass("show");
+
+    if (nav_link.hasClass("smooth-anchor")) {
+      $("#menu").modal("hide");
+      
+    }
+    document.getElementById("menu-dismiss").click()
+  });
+    </script>
   </body>
 </html>

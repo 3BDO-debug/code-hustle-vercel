@@ -11,7 +11,7 @@ function MenuModal() {
     >
       <div className="modal-dialog modal-dialog-slideout" role="document">
         <div className="modal-content full">
-          <div className="modal-header" data-dismiss="modal">
+          <div className="modal-header" data-dismiss="modal" id="menu-dismiss">
             Menu <i className="icon-close" />
           </div>
           <div className="menu modal-body">

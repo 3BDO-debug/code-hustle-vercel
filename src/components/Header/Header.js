@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logo.png"
+import logo from "../../images/logo.png";
 function Header() {
   return (
     <header id="header">
@@ -13,7 +13,12 @@ function Header() {
           {/* Navbar Brand*/}
           <a href="/" className="navbar-brand">
             <img
-              style={{ maxWidth: "140px", height: "auto" }}
+              style={{
+                minWidth: "110px",
+                maxWidth: "140px",
+                maxHeight: "auto",
+                minHeight: "110px",
+              }}
               className="logo__image"
               src={logo}
               alt="code hustle logo"
@@ -21,7 +26,10 @@ function Header() {
           </a>
           {/* Navbar Items */}
           <ul className="navbar-nav items ">
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              
+            >
               <a href="#video" className="nav-link smooth-anchor">
                 About
               </a>
