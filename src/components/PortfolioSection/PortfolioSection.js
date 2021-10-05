@@ -10,6 +10,7 @@ import ecomaticcrm from "../../images/portfolio/Ecomatic-CRM.png";
 import netflix from "../../images/portfolio/netflix.png";
 import tkckitchens from "../../images/portfolio/TKC-Kitchens.png";
 import topdental from "../../images/portfolio/top-dental.png";
+import ecomaticCRMV2 from "../../images/portfolio/Ecomatic-CRM-v2.1.jpg";
 
 function PortfolioSection() {
   return (
@@ -26,7 +27,34 @@ function PortfolioSection() {
         </div>
         <div className="row justify-content-center text-center items">
           <div
-            onClick={() => window.open("https://ahmedsultan5050.pythonanywhere.com")}
+            onClick={() =>
+              window.open("https://ecomatic-crmv2-1.vercel.app/auth/login")
+            }
+            style={{ cursor: "pointer" }}
+            className="col-12 col-md-6 col-lg-4 item"
+          >
+            <div className="card featured">
+              <h4>Advanced CRM system</h4>
+              <p>
+                Ecomatic CRM, is fully features loaded advanced CRM built on the
+                latest technologies
+              </p>
+              <div className="gallery">
+                <a href={ecomaticCRMV2}>
+                  <img
+                    style={{ height: "170px", width: "240px" }}
+                    src={ecomaticCRMV2}
+                    alt="ecomatic crm"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            onClick={() =>
+              window.open("https://ahmedsultan5050.pythonanywhere.com")
+            }
             style={{ cursor: "pointer" }}
             className="col-12 col-md-6 col-lg-4 item"
           >
